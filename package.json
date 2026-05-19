@@ -2,6 +2,7 @@
   "name": "xcsoar-docs",
   "scripts": {
     "dev": "nuxt dev",
+    "generate": "nuxt generate",
     "build": "nuxt build"
   },
   "dependencies": {
