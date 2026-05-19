@@ -1,19 +1,16 @@
 ---
-seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
+title: Write beautiful docs with Markdown
+description: Ship fast, flexible, and SEO-optimized documentation with beautiful
     design out of the box. Docus brings together the best of the Nuxt ecosystem.
     Powered by Nuxt UI.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+XCSoar 7
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
-
-Docus brings the best of the Nuxt ecosystem into one CLI.
+The open-source glide computer for cross-country, competition, and training flights.
 
 #links
   :::u-button
@@ -31,7 +28,7 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   color: neutral
   icon: simple-icons-github
   size: xl
-  to: https://github.com/nuxt-content/docus
+  to: https://github.com/XCSoar/XCSoar
   variant: outline
   ---
   Star on GitHub
@@ -46,78 +43,80 @@ Shipped with many features
   :::u-page-feature
   ---
   icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
+  to: /user-manual/introduction/overview
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
+  User Manual
   
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+
+  Learn XCSoar step by step with detailed documentation covering navigation,
+  task flying, airspace management, thermal assistance, device setup, and
+  in-flight workflows for beginners and advanced pilots alike.
+
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
+  icon: i-lucide-zap
+  to: /quick-guide/quick-guide
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
+  Quick Guide
   
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  
+  Get airborne quickly with concise setup instructions, onboarding
+  help, and essential XCSoar workflows for your first flights, competitions, or
+  simulator sessions.
+
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
+  icon: i-lucide-layout-grid
+  to: /info-boxes/e_heightgps
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
+  InfoBoxes
   
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+
+  Customize powerful InfoBoxes with real-time flight data such as glide ratio,
+  altitude difference, MacCready settings, wind, task progress, and thermal
+  performance.
+
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  icon: i-lucide-tablet
+  to: /hardware
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
+  Hardware
   
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+
+  XCSoar runs on Android, iOS, Linux, Windows, Kobo devices, and embedded
+  systems with support for FLARM, variometers, loggers, radios, and many
+  external flight instruments.
+
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
+  icon: i-lucide-terminal
+  to: /developers
   ---
   #title
-  Edit in production with [Nuxt Studio]{.text-primary}
+  Developers
   
   #description
-  Edit your content in production with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
-  :::
 
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
-  ---
-  #title
-  Built-in navigation and [full-text search]{.text-primary}
-  
-  #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Explore the developer documentation for building XCSoar, integrating hardware
+  protocols, creating Lua scripts, configuring input events, and contributing to
+  the open-source project.
+
   :::
 ::
